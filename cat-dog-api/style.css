@@ -1,0 +1,54 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5px 20px;
+  margin-top: 200px;
+}
+
+.results #cat-result, .results #dog-result {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+  width: 250px;
+  overflow: hidden;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5px 20px;
+  height: 50px;
+  position: relative;
+  bottom: 15px;
+}
+
+.buttons #cat-btn, .buttons #dog-btn {
+  background-color: pink;
+  width: 250px;
+  border-style: 2px solid black;
+}
+
+.buttons #cat-btn:hover, .buttons #dog-btn:hover {
+  background-color: aqua;
+  border: 3px solid black;
+}
+/*# sourceMappingURL=style.css.map */

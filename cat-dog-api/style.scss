@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.results{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px;
+    margin-top: 200px;
+
+    
+    #cat-result, #dog-result{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 250px;
+        overflow: hidden;
+    }
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px;
+    height: 50px;
+    position: relative;
+    bottom: 15px;
+    #cat-btn , #dog-btn{
+        background-color: pink;
+        width: 250px;
+        border-style: 2px solid black;
+    }
+
+    #cat-btn:hover, #dog-btn:hover{
+        background-color: aqua;
+        border: 3px solid black;
+    }
+}
