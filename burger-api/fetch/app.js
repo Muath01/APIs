@@ -13,4 +13,4 @@ function timeToSleep(num, arr){
         console.log(arr[i])
         }
     }
-}
+}////
